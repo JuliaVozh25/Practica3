@@ -3,4 +3,4 @@ solution: solution-name.sln
 install:
   - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
 script:
-  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./Practica3/TestPrime/bin/Debug/TestPrime.dll
+  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./TestPrime/bin/Debug/TestPrime.dll
